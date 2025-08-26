@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>QUIZ</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Landing Page -->
+  <main id="landing" class="page page-landing">
+    <h1 class="landing-title">🌸 Let's Dive In!</h1>
+    <p class="landing-sub">Test your Logical, Quantitative & Verbal skills ✨</p>
+    <button id="startBtn" class="cta">Get Started</button>
+  </main>
+
+  <!-- Quiz Page -->
+  <section id="quizPage" class="page page-quiz hidden">
+    <div class="stars left"></div>
+    <div class="stars right"></div>
+
+    <header class="quiz-header">
+      <div class="topic" id="topicLabel">Topic: Logical Reasoning</div>
+      <div class="meta">
+        <div class="meta-item">⏳ <span id="timer">25</span>s</div>
+        <div class="meta-item">⭐ Score: <span id="score">0</span></div>
+      </div>
+    </header>
+<!-- Add inside your quizPage -->
+<div class="stars left">
+  <span>⭐</span><span>⭐</span><span>🏆</span><span>⭐</span><span>⭐</span>
+</div>
+<div class="stars right">
+  <span>⭐</span><span>⭐</span><span>🏆</span><span>⭐</span><span>⭐</span>
+</div>
+
+    <div class="quiz-body">
+      <div id="questionBox" class="question-box">
+        <h2 id="questionText">Question will appear here</h2>
+        <div id="optionsWrap" class="options-wrap"></div>
+        <div id="feedback" class="feedback" aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Result Page -->
+  <section id="resultPage" class="page page-result hidden">
+    <div class="result-card">
+      <h1>🎉 Quiz Complete</h1>
+      <p id="finalScore">You scored 0 / 0</p>
+      <p id="previousScore"></p>
+      <p id="improvement"></p>
+      <div id="topicStats"></div>
+      <div class="result-actions">
+        <button id="restartBtn" class="cta ghost">Play Again</button>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

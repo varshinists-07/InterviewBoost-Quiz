@@ -17,4 +17,4 @@ InterviewBoost-Quiz is a pastel-themed web quiz app designed to help students an
 ## How to Run
 1. Clone the repository
    ```bash
-   git clone https://github.com/your-username/InterviewBoost-Quiz.git
+   git clone https://github.com/varshinists-07/InterviewBoost-Quiz.git
